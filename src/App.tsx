@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import backgroundImage from './on_mars_bg_small.png';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='header'>
+        <div className='header-content'>
+          123GAMES
+        </div>
+      </div>
+      
+      <div className='body' style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover' }}>
+        <div className='body-content'>
+          <div className='game-title'>On Mars</div>
+          <div className='description'>A multiplayer online adventure sandbox game powered by GPT</div>
+          <div className='start-btn' onClick={() => {
+            window.open('https://chat.openai.com/g/g-oXk0kl8F8', '_blank');
+          }}>PLAY NOW</div>
+        </div>
+      </div>
+      
+      <div className='footer'>
+        &copy; 2024 123GAMES. All rights reserved.
+      </div>
     </div>
   );
 }
