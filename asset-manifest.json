@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.b18b819d.css",
-    "main.js": "/static/js/main.c44f3ba4.js",
+    "main.js": "/static/js/main.b8d89683.js",
     "static/js/787.23b83520.chunk.js": "/static/js/787.23b83520.chunk.js",
     "static/media/on_mars_bg_small.png": "/static/media/on_mars_bg_small.b41749b94de9075d194a.png",
     "index.html": "/index.html",
     "main.b18b819d.css.map": "/static/css/main.b18b819d.css.map",
-    "main.c44f3ba4.js.map": "/static/js/main.c44f3ba4.js.map",
+    "main.b8d89683.js.map": "/static/js/main.b8d89683.js.map",
     "787.23b83520.chunk.js.map": "/static/js/787.23b83520.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b18b819d.css",
-    "static/js/main.c44f3ba4.js"
+    "static/js/main.b8d89683.js"
   ]
 }
